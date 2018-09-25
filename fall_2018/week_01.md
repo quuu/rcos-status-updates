@@ -1,22 +1,48 @@
 ## Last Week's Accomplishments
 
-> In this section, you can write about what you accomplished in the previous week.
+- Got actually started on the iOS app.
 
-> Examples:
-> Bug fixes, Features added, Links to Issues, Links to Pull-Requests, Lightning Talks, Bonus Sessions
+- Read lots of documentation on how Swift processes JSON
+  - How to make GET requests
+  - Classes in Swift
+
+- Getting familiar with Swift and XCode in general
+
+
 
 ## This Week's Plan
 
-> In this section, you can write about what you have planned for next week.
+- Create proper objects for Routes class.
 
-> Examples: New Bugs to be fixed, Design choices
+- Parse information from shuttles.rpi.edu/routes
+
+- If finish with parsing routes information, move onto helping with integrating the information into the front end.
+
+- Establish what should be temporary and what should be permanent:
+
+Initial draft on above:
+
+
+Permanent:
+	Vehicle tracking ID and corresponding vehicle ID
+	Stops (every app open, checks to make sure no new stops are added? How else to update when more stops are added?)
+	Routes (same as above)
+
+Temporary:
+	Location of vehicle
+	Information about vehicle other than tracking ID
+
+
 
 ## Anything Blocking?
 
-> In this section, you can write about any blockers that you are having trouble in the project.
+- Big issue with entire project: Do we keep on fetching from the web? Do we have background refresh? How do we make it BETTER than the web application?
 
-> Examples: Confusion on how to approach a problem, Limited experience with a specific technology
+
 
 ## Notes
 
-> This is an optional section for any sort of information that does not fall under any of the other categories.
+
+
+
+
